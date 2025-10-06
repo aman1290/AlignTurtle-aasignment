@@ -30,7 +30,7 @@ A Django REST Framework based movie ticket booking system with JWT authenticatio
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/aman1290/AlignTurtle-aasignment.git
    cd movie_booking_system
    ```
 
@@ -52,7 +52,7 @@ A Django REST Framework based movie ticket booking system with JWT authenticatio
 
 4. **Run migrations**
    ```bash
-   python manage.py makemigrations
+   python manage.py makemigrations movies users
    python manage.py migrate
    ```
 
